@@ -5,6 +5,90 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+
+  padding: 8px 16px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+a{
+  color: #666;
+  text-decoration: none;
+}
+
+.header, .footer{
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+DIFFERENT APPROACH BUT BIGGER SIZES
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
@@ -24,3 +108,42 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0 16px;
+}
+
+a{
+  color: #666;
+  text-decoration: none;
+}
+
+.header, .footer{
+  padding: 16px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+button {
+  padding: 8px;
+}
+
+.footer {
+  background-color: #eeeeee ;
+} */
+
+
+
+
